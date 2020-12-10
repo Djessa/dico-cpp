@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1607592919 source:/home/djessa/Back/Dico/src/Dico.cpp
+	"Dico.h"
+
+1607592919 /home/djessa/Back/Dico/include/Dico.h
+
+1607595417 source:/home/djessa/Back/Dico/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
