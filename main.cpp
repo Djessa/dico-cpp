@@ -44,7 +44,7 @@ int main()
         {
             cout << "Entrer un mot en anglais : "<<endl;
             getline(cin, line);
-            fileO<<line;
+            fileO<<endl<<line;
             cout << "Entrer sa signification en français : "<<endl;
             getline(cin, line);
             fileO<<endl<<line;
@@ -55,5 +55,6 @@ int main()
             cout << "Erreur : Impossible d'ouvrir le fichier"<<endl;
         }
     }
+
     return 0;
 }
